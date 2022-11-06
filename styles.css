@@ -1,0 +1,59 @@
+*{
+    width: 100%;
+}
+
+#main{
+  border: 2px solid black;
+  width: 90%;  
+  margin: 10px auto;
+  padding:0 10px;
+  padding-bottom: 10px;
+}
+header{
+    padding-bottom: 5px;
+}
+.year{
+    background-color: rgb(10,10,35);
+    color: whitesmoke;
+    width: 100%;
+    padding-right:10px;
+    padding-left:unset;
+    display: inline-block;
+}
+.year p{
+    width: fit-content;
+    float: right;
+    margin-left:25px ;     
+}
+
+#balance-type{
+    padding-left:5px;
+    background-color:#dfdfe2 ;
+}
+.asset-title, .balance{
+width: fit-content;
+display: inline-flex;
+
+}
+.asset-title{
+ float: inline-start;  
+}
+.balance{
+    float: right;
+    margin-left: 32px;
+}
+
+
+.asset-title{
+    color: red;
+}
+
+.total{
+    border-bottom: double;
+    font-weight: bold;
+    
+}
+
+h3{
+    color: blueviolet;
+}
